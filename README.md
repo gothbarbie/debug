@@ -1,11 +1,8 @@
 Debug
 =====
-A PHP debugging helper-class.
-
-# Description #
 Debug is a static class the simplifies routine debugging procedures, such as rendering pretty looking arrays and variables.
 
-# Examples #
+## Examples ##
 ```php
 $data = ['username' => 'hanna', 'email' => 'info@hannasoderstrom.com'];
 Debug::printr($data);
